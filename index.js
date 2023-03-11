@@ -88,13 +88,14 @@ ${renderLicense(answers.license)}
 ## Tests
 * ${answers.tests} 
 
-## Questions
-* ${answers.questionEmail}
-* ${answers.questionGithub} 
+## Questions - Reach out to me on:
+* Email: ${answers.questionEmail}
+* Github: ${answers.questionGithub} 
 `;
 
 
 fs.writeFile(path.join(process.cwd() + '/dist/', 'README.md'), generateReadMe, (err) =>
+{
 if (err)
 {
   console.log ("ERROR! Could not generate file. Please try again! ");
