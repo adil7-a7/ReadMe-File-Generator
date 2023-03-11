@@ -1,24 +1,24 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# lo
+# The Great Speed
 ## Description 
-* ks 
+* measuring speed of thought 
 
 ## Table of Contents
-  * [Project Description] (#description)
-  * Usage (#usage)
-  * Installation (#installation)
-  * License (#license)
-  * Contributors (#contributors)
-  * Tests (#tests)
-  * Questions (#questionGithub) (#questionEmail)
+  * [Project Description] (doc:linking-to-pages#description)
+  * [Usage] (doc:linking-to-pages#usage)
+  * [Installation] (doc:linking-to-pages#installation)
+  * [License] (doc:linking-to-pages#license)
+  * [Contributors] (doc:linking-to-pages#contributors)
+  * [Tests] (doc:linking-to-pages#tests)
+  * [Questions] (doc:linking-to-pages#questionGithub) (doc:linking-to-pages#questionEmail)
 
 
 ## Usage
-* jhs
+* random
 
 ## Installation Instructions
-* nwnwj
+* coming soon!
 
 ## License
 * MIT
@@ -27,9 +27,9 @@
 * undefined 
 
 ## Tests
-* rr 
+* many 
 
 ## Any Questions ?
  Reach out to me on:
-* Email: 1dd
-* Github: e 
+* Email: @mail.com
+* Github: akkl 
