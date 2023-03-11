@@ -14,17 +14,17 @@ const questions = () =>
     {
       type: 'input',
       name: 'description',
-      message: 'Please give a description of your project',
+      message: 'Please give a description of your project: ',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'Please enter usage info. :',
+      message: 'Please enter usage information :',
     },
     {
       type: 'input',
       name: 'installation',
-      message: 'Please enter the Installation Instructions',
+      message: 'Please enter the Installation Instructions: ',
     },
     {
       type: 'list',
@@ -45,8 +45,13 @@ const questions = () =>
     },
     {
       type: 'input',
-      name: 'questions',
-      message: 'Please enter your GitHub username:',
+      name: 'questionGithub',
+      message: 'Please enter your GitHub username: ',
+    },
+    {
+      type: 'input',
+      name: 'questionEmail',
+      message: 'Please enter your email: ',
     },
 
 ])
@@ -59,38 +64,45 @@ ${renderLicense(answers.license)}
 ## Description 
 * ${answers.description} 
 
-## Table of Contents: 
+## Table of Contents
   * [Project Description] (#description)
   * Usage (#usage)
   * Installation (#installation)
   * License (#license)
   * Contributors (#contributors)
   * Tests (#tests)
-  * Questions (#questions)
-
-## Usage: 
+  * Questions (#questionGuthub) (#questionEmail)
+  * 
+## Usage
 * ${answers.usage}
 
-## Installation Instructions:
+## Installation Instructions
 * ${answers.installation}
 
 ## License
 * ${answers.license}
 
-## Contributions
+## Contributors
 * ${answers.contributions} 
 
 ## Tests
 * ${answers.tests} 
 
 ## Questions
-* ${answers.questions} 
+* ${answers.questionEmail}
+* ${answers.questionGithub} 
 `;
 
 
-fs.writeFile(path.join(process.cwd() + '/dist/', 'README.md'), generateReadMe () =>
+fs.writeFile(path.join(process.cwd() + '/dist/', 'README.md'), generateReadMe, (err) =>
+if (err)
 {
-  console.log('README Generated');
+  console.log ("ERROR! Could not generate file. Please try again! ");
+}
+
+else 
+{
+  console.log('README file has been generated successfully! ');
 })
 });
 
