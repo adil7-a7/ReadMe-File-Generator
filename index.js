@@ -64,14 +64,16 @@ ${renderLicense(answers.license)}
 ## Description 
 * ${answers.description} 
 
-## Table of Contents
-  * [Project Description] (#description)
-  * [Usage] (#usage)
-  * [Installation] (#installation)
-  * [License] (#license)
-  * [Contributors] (#contributors)
-  * [Tests] (#tests)
-  * [Questions] (#questionGithub) (#questionEmail)
+## Table of Contents:
+  * [Project Description](#description)
+  * [Usage](#usage)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questionGithub)
+
+
 
 
 ## Usage

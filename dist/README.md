@@ -1,24 +1,26 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# The Great Speed
+# Test
 ## Description 
-* measuring speed of thought 
+* cool 
 
-## Table of Contents
-  * [Project Description] (doc:linking-to-pages#description)
-  * [Usage] (doc:linking-to-pages#usage)
-  * [Installation] (doc:linking-to-pages#installation)
-  * [License] (doc:linking-to-pages#license)
-  * [Contributors] (doc:linking-to-pages#contributors)
-  * [Tests] (doc:linking-to-pages#tests)
-  * [Questions] (doc:linking-to-pages#questionGithub) (doc:linking-to-pages#questionEmail)
+## Table of Contents:
+  * [Project Description](#description)
+  * [Usage](#usage)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questionGithub)(#questionEmail)
+
+
 
 
 ## Usage
-* random
+* cmd program to generate readme
 
 ## Installation Instructions
-* coming soon!
+* clone repo from github and run the program
 
 ## License
 * MIT
@@ -27,9 +29,9 @@
 * undefined 
 
 ## Tests
-* many 
+* do 
 
 ## Any Questions ?
  Reach out to me on:
-* Email: @mail.com
-* Github: akkl 
+* Email: qq
+* Github: aks 
