@@ -88,7 +88,8 @@ ${renderLicense(answers.license)}
 ## Tests
 * ${answers.tests} 
 
-## Questions - Reach out to me on:
+## Any Questions ?
+ Reach out to me on:
 * Email: ${answers.questionEmail}
 * Github: ${answers.questionGithub} 
 `;
@@ -104,8 +105,10 @@ if (err)
 else 
 {
   console.log('README file has been generated successfully! ');
-})
+}
+
 });
+})
 
 let renderLicense = (license) =>
 {
@@ -121,5 +124,5 @@ let renderLicense = (license) =>
       return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/GNPUPLv3)`;
   }
 }
-promptUser();
+questions();
 
