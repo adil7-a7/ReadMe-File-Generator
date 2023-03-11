@@ -65,14 +65,15 @@ ${renderLicense(answers.license)}
 * ${answers.description} 
 
 ## Table of Contents
-  * [Project Description] (#description)
-  * Usage (#usage)
-  * Installation (#installation)
-  * License (#license)
-  * Contributors (#contributors)
-  * Tests (#tests)
-  * Questions (#questionGuthub) (#questionEmail)
-  * 
+  * [Project Description] (doc:linking-to-pages#description)
+  * [Usage] (doc:linking-to-pages#usage)
+  * [Installation] (doc:linking-to-pages#installation)
+  * [License] (doc:linking-to-pages#license)
+  * [Contributors] (doc:linking-to-pages#contributors)
+  * [Tests] (doc:linking-to-pages#tests)
+  * [Questions] (doc:linking-to-pages#questionGithub) (doc:linking-to-pages#questionEmail)
+
+
 ## Usage
 * ${answers.usage}
 
