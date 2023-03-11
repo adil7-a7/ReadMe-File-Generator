@@ -1,5 +1,7 @@
 const fs =  require ('fs');
 const inquirer = require('inquirer');
+const path = require('path');
+
 let badge;
 
 const questions = () =>
@@ -47,14 +49,15 @@ const questions = () =>
       message: 'Please enter your GitHub username:',
     },
 
-  ])
-  .then((answers) => {
-  const generateReadMe = 
+])
+
+.then((answers) => {
+const generateReadMe = 
 `
 ${renderLicense(answers.license)}
 # ${answers.ProjectName}
 ## Description 
-${answers.description} 
+* ${answers.description} 
 
 ## Table of Contents: 
   * [Project Description] (#description)
@@ -62,25 +65,26 @@ ${answers.description}
   * Installation (#installation)
   * License (#license)
   * Contributors (#contributors)
-  
-  * 
+  * Tests (#tests)
+  * Questions (#questions)
 
 ## Usage: 
-${answers.usage}
+* ${answers.usage}
 
 ## Installation Instructions:
-${answers.installation}
+* ${answers.installation}
+
 ## License
- ${answers.license}
+* ${answers.license}
 
 ## Contributions
-${answers.contributions} 
+* ${answers.contributions} 
 
 ## Tests
- ${answers.tests} 
+* ${answers.tests} 
 
 ## Questions
- ${answers.questions} 
+* ${answers.questions} 
 `;
 
 
