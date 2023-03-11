@@ -1,8 +1,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Test
+# Demo1
 ## Description 
-* cool 
+* testing  
 
 ## Table of Contents:
   * [Project Description](#description)
@@ -11,16 +11,16 @@
   * [License](#license)
   * [Contributors](#contributors)
   * [Tests](#tests)
-  * [Questions](#questionGithub)(#questionEmail)
+  * [Questions](#questionGithub)clear
 
 
 
 
 ## Usage
-* cmd program to generate readme
+* n/a
 
 ## Installation Instructions
-* clone repo from github and run the program
+* coming soon!
 
 ## License
 * MIT
@@ -29,9 +29,9 @@
 * undefined 
 
 ## Tests
-* do 
+* all 
 
 ## Any Questions ?
  Reach out to me on:
-* Email: qq
-* Github: aks 
+* Email: mail@mail.com
+* Github: adil7_a7 
